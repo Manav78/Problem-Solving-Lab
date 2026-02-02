@@ -6,4 +6,4 @@ num3 = int(input("Enter 3rd number : "))
 num4 = int(input("Enter 4th number : "))
 
 greatest = max(num1,num2,num3,num4)
-print(greatest, " is the greatest")
+print(greatest, " is the greatest.")
