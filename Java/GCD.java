@@ -19,6 +19,6 @@ class GCD{
                 gcd=i;
             }
         }
-        System.out.println(gcd);
+        System.out.println("GCD is: "+gcd);
     }
 }

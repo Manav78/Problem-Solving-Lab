@@ -11,4 +11,4 @@ else:
 for i in range(1,smallest//2):
      if num1%i==0 and num2%i==0:
          gcd=i
-print(gcd)
+print("GCD is: ",gcd)
