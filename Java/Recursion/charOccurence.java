@@ -6,7 +6,7 @@ public class charOccurence {
 
     public static void Occurence(String str, int idx, char ch) {
         if (str.length() == idx) {
-            System.out.println(first + " " + last);
+            System.out.println("First and Last Occurence: " + first + " " + last);
             return;
         }
         if (str.charAt(idx) == ch) {
