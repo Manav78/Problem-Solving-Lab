@@ -6,7 +6,7 @@ public class moveChar {
             for (int i = 0; i < count; i++) {
                 newStr += ch;
             }
-            System.out.println("Output: " + newStr);
+            System.out.println(newStr);
             return;
         }
         char currChar = str.charAt(idx);
