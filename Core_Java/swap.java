@@ -3,7 +3,7 @@ package Core_Java;
 
 import java.util.Scanner;
 
-public class swap {
+public class Swap {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter 1st Number: ");
@@ -14,11 +14,12 @@ public class swap {
         System.out.println("Before Swapping: ");
         System.out.println("1st = " + a + "\n2nd = " + b);
 
-        a = a + b;
-        b = a - b;
-        a = a - b;
+        a = a ^ b;
+        b = a ^ b;
+        a = a ^ b;
 
         System.out.println("After Swapping: ");
         System.out.println("1st = " + a + "\n2nd = " + b);
+        sc.close();
     }
 }
